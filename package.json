@@ -1,0 +1,18 @@
+{
+  "name": "polymer-wct-demo",
+  "description": "Testing Polymer 2 using Web Component Tester (WCT)",
+  "homepage": "https://github.com/mincong-h/polymer-wct-demoo",
+  "license": "MIT",
+  "vendor": "Mincong Huang",
+  "private": false,
+  "devDependencies": {
+    "polymer-cli": "1.6.0"
+  },
+  "scripts": {
+    "test": "npm install && polymer install && polymer build && polymer test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mincong-h/polymer-wct-demo.git"
+  }
+}
