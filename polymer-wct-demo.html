@@ -1,0 +1,36 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="polymer-wct-demo">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * `polymer-wct-demo`
+     * 
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class PolymerWctDemo extends Polymer.Element {
+      static get is() { return 'polymer-wct-demo'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'polymer-wct-demo'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(PolymerWctDemo.is, PolymerWctDemo);
+  </script>
+</dom-module>
