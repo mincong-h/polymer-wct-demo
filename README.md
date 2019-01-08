@@ -1,4 +1,4 @@
-# polymer-wct-demo
+# polymer-wct-demo [![Build status][travis-img]][travis]
 
 Testing Polymer 2 using Web Component Tester (WCT).
 
@@ -63,3 +63,6 @@ here, it is only compatible with Firefox 55-62. If the version is not
 compatible, the tests will fail. See [mapping between
 geckodriver releases, supported versions of Firefox, and required Selenium
 version](https://firefox-source-docs.mozilla.org/testing/geckodriver/geckodriver/Support.html).
+
+[travis]: https://travis-ci.org/mincong-h/polymer-wct-demo
+[travis-img]: https://travis-ci.org/mincong-h/polymer-wct-demo.svg?branch=master
